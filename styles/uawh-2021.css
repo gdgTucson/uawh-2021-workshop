@@ -1,0 +1,33 @@
+body {
+    margin: 0 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 5vw 90vw 5vw;
+    grid-template-rows: auto;
+}
+
+.header-container {
+    grid-column: 1 / 4;
+    grid-row: 1;
+}
+
+#iwd-header {
+    justify-self: stretch;
+    max-width: 100vw;
+}
+
+.main-container {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.footer-container {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#gdg-tucson-logo {
+    max-height: 5vh;
+}

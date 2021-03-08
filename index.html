@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>UAWH Mini Sumo</title>
+        <link rel="stylesheet" href="styles/uawh-2021.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header-container">
+                <header>
+                    <img id="iwd-header" 
+                        alt="International Women's Day 2021 logo: Courage to Create"
+                        src="images/wtm-iwd-web-banner.png">
+                    </header>
+                </div>
+            <div class="main-container">
+                <main>
+                    <h1>University of Arizona Women's+ Hackathon 2021</h1>
+                    <article>
+                        <h2>Robot Mini Sumo Workshop</h2>
+                        <section>
+                            <h3>Autonomous robotics</h3>
+                        </section>
+                        <section>
+                            <h3>Robot mini sumo</h3>
+                        </section>
+                        <section>
+                            <h3>Mini sumo robots</h3>
+                        </section>
+                        <section>
+                            <h3>Pololu Zumo 32U4 robot</h3>
+                        </section>
+                        <section>
+                            <h3>Programming the Zumo robot</h3>
+                            <h4>Installing Arduino IDE</h4>
+                            <h5>Windows</h5>
+                            <p>
+                                Go to the 
+                                <a href="https://www.arduino.cc/en/software">Arduino software page</a> 
+                                and download the latest stable version of the Arduino IDE (currently 
+                                version 1.8.13) for Windows. Follow the instructions to
+                                <a href="https://www.arduino.cc/en/Guide/Windows">install the Arduino software on Windows</a>.
+                            </p>
+                            <h5>Mac OS</h5>
+                            <p>
+                                Go to the 
+                                <a href="https://www.arduino.cc/en/software">Arduino software page</a> 
+                                and download the latest stable version of the Arduino IDE (currently 
+                                version 1.8.13) for Mac OS X. Follow the instructions to
+                                <a href="https://www.arduino.cc/en/Guide/MacOSX">install the Arduino software on OS X</a>.
+                            </p>
+                            <h5>Linux</h5>
+                            <p>
+                                Go to the 
+                                <a href="https://www.arduino.cc/en/software">Arduino software page</a> 
+                                and download the latest stable version of the Arduino IDE (currently 
+                                version 1.8.13) for Linux. Follow the instructions to
+                                <a href="https://www.arduino.cc/en/Guide/Linux">install the Arduino software on Linux</a>.
+                            </p>
+                            <h4>Installing Zumo 32U4 library</h4>
+                            <p>
+                                Install the A-Star 32U4 board and library using the Arduino Board Manager by 
+                                following the instructions in 
+                                <a href="https://www.pololu.com/docs/0J63/5.2">section 5.2 of the Pololu Zumo 32U4 Robot User's Guide</a>.
+                            </p>
+                            <p><emph>
+                                Note that, if you are using Windows, you also need to install Windows drivers by following the 
+                                instructions in 
+                                <a href="https://www.pololu.com/docs/0J63/5.1">section 5.1 of the Pololu Zumo 32U4 Robot User's Guide</a>.
+                            </emph></p>
+                            <h4>Hello World! (Blink)</h4>
+                            <p>
+                                A "Hello World!" program is a tradition in computer programming that was most 
+                                likely started by 
+                                <a href="https://en.wikipedia.org/wiki/Brian_Kernighan">Brian Kernighan</a>,
+                                the creator of the C programming language. It is usually the first program you 
+                                write when learning a new programming language and is often used by experienced
+                                programmers to ensure their development environment is set up properly.
+                            </p>
+                            <p>
+                                We will continue that tradition for the Zumo robot. Follow the instructions in 
+                                <a href="https://www.pololu.com/docs/0J63/5.2">section 5.2 of the Pololu Zumo 32U4 Robot User's Guide</a>.
+                                to install the Blink sketch on your Zumo robot from the Basics folder of the 
+                                Examples menu. You will not need to turn the power switch on for the robot, since
+                                the USB cable will power the microcontroller board and that is all you will need
+                                to blink the LED.
+                            </p>
+                            <p>
+                                Is the yellow LED blinking on and off at a one second rate?
+                            </p>
+                            <p>
+                                Congratulations! You've successfully installed and run your first sketch 
+                                on the Zumo 32U4 robot.
+                            </p>
+                            <h4>Simple sumo robot starter program</h4>
+                            <p>
+                                A blinking LED is fun and all, but not very useful for a sumo robot 
+                                competition. Let's install another example on the Zumo robot that 
+                                will provide a solid foundation for your competitive sumo robot code.
+                            </p>
+                            <p>
+                                Open up the examples menu in the Arduino IDE. This time, we are going
+                                to choose the BorderDetect sketch. You will find this in the Zumo32U4
+                                folder. (If you manually installed the Zumo library, this may have a 
+                                different name &mdash; it will be whatever you named the library when
+                                you installed it.)
+                            </p>
+                            <p>
+                                This sketch is a very simple sumo program, but it has the basics you
+                                need to start with. In terms of Rob Brooks' Subsumption Architecture, 
+                                this would be the <emph>level 0</emph> behavior &mdash; the default
+                                behavior for the robot when no other behavior is subsuming it.
+                            </p>
+                            <p>
+                                This short video illustrates the 
+                                <a href="https://youtu.be/3-PhxBM5vjU">BorderDetect sketch in action</a>
+                                on a Zumo robot.
+                            </p>
+                        </section>
+                        <section>
+                            <h3>Mini Sumo Competition</h3>
+                        </section>
+                    </article>
+                </main>
+            </div>
+            <div class="footer-container">
+                <footer>
+                    <img id="gdg-tucson-logo"
+                        alt="GDG Tucson logo"
+                        src="images/gdg-tucson-logo.png">
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>
