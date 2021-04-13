@@ -1,5 +1,6 @@
 body {
     margin: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -24,6 +25,11 @@ body {
     display: grid;
     grid-template-columns: repeat(6, 15vw);
     grid-template-rows: auto;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
 }
 
 #home {
@@ -65,6 +71,19 @@ body {
 .main-container {
     grid-column: 2;
     grid-row: 3;
+}
+
+#sign-up-link {
+    font-size: 2rem;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+}
+
+#sumo-winner {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: blueviolet;
 }
 
 #bracket {
